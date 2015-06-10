@@ -1,0 +1,14 @@
+# Maven files
+target
+
+# Eclipse files
+.settings
+.project
+.classpath
+
+# java files
+*.class
+
+# OS X files
+.DS_Store
+*~
