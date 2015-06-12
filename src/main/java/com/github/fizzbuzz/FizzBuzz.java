@@ -16,14 +16,4 @@ public class FizzBuzz {
     public void run(int max){
         // ここにプログラムを書く．
     }
-    
-    public static void main(String[] args){
-        FizzBuzz fizzbuzz = new FizzBuzz();
-        if(args.length == 0){
-            fizzbuzz.run();
-        }
-        else{
-            fizzbuzz.run(Integer.parseInt(args[0]));
-        }
-    }
 }
