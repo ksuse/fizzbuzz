@@ -8,11 +8,15 @@ package com.github.fizzbuzz;
 public class Main{
     public void run(String[] args){
         FizzBuzz fizzbuzz = new FizzBuzz();
+        String[] array;
         if(args.length == 0){
-            fizzbuzz.run();
+            array = fizzbuzz.run();
         }
         else{
-            fizzbuzz.run(Integer.parseInt(args[0]));
+            array = fizzbuzz.run(Integer.parseInt(args[0]));
+        }
+        for(String item: array){
+            System.out.println(item);
         }
     }
 
